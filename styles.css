@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 :root{
     --primary-color: #1e40af;
+    --grey-color: #334155;
 }
 body{
     font-family: 'Mulish', sans-serif;
@@ -12,7 +13,7 @@ body{
     background-color: #1e40af;
     color: white;
     border-bottom-left-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     font-weight: bold;
     font-size: medium;
 }
@@ -33,12 +34,23 @@ body{
     padding: 0.5rem 1rem;
 }
 
-.navigation .link-active{
-    font-weight: bold;
-}
-
 .link{
     text-decoration: none;
     color: white;
 }
 
+/**Header**/
+ .header-image{
+    max-width: 400px;
+    display: block;
+    padding-top: 2rem;
+    margin: auto;
+}
+.header-heading{
+    text-align: center;
+    color: var(--grey-color);
+    padding: auto;
+}
+.highlight{
+    color: var(--primary-color);
+}
