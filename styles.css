@@ -16,7 +16,8 @@ body{
 .navigation{
     background-color: var(--primary-color);
     color: var(--neutral-color);
-    border-bottom-left-radius: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     padding: 2rem;
     font-weight: bold;
     font-size: medium;
@@ -45,9 +46,12 @@ body{
     padding: 1rem;
 }
 .link-active{
-    font-weight: bolder;
+    font-size: 1.4rem;
     color: var(--neutral-color);
+    text-decoration: underline;
 }
+
+
 
 /**Header**/
  .header-image{
@@ -102,6 +106,8 @@ body{
 
 .footer{
     background-color: var(--primary-color);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     text-align: center;
     padding: 2rem;
 }
@@ -109,3 +115,9 @@ body{
 .footer h3{
     color: #1c1917;
 }
+.link-2{
+    text-decoration: none;
+    padding: 2rem;
+    color: var(--neutral-color);
+}
+
